@@ -1,7 +1,7 @@
 
         var movies = [
             { name: "STREE 2", poster: "../../public/images/stree2.jpeg" },
-            { name: "Bahubali", poster: "../../public/images/bahubali.jpeg" },
+            { name: "Bahubali", poster: "../../public/images/Bahubali.jpeg" },
             { name: "Avengers", poster: "../../public/images/avengers.jpeg" },
         ];
         function LoadMovies() {
