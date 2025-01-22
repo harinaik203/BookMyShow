@@ -1,0 +1,66 @@
+
+        body {
+            background-image: url("../../public/Images/Netflix-image.webp");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+
+
+        .shade {
+            position: relative;
+            z-index: 1;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .border-danger {
+            background-color: #ffffff;
+        }
+
+        #quickbooking {
+            margin-top: 35px;
+            width: 600px;
+            height: 348px;
+        }
+
+        @media screen and (orientation:portrait) {
+            body {
+                display: grid;
+                grid-template-columns: 12fr;
+            }
+        }
+
+        @media screen and (orientation:landscape) {
+            body {
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+            }
+
+            #bookingpanel {
+                width: 600px;
+                margin-left: 3rem;
+            }
+
+            #heading {
+                margin-left: 5rem;
+            }
+        }
+        #movieslist{
+            color: black;
+        }
+    
